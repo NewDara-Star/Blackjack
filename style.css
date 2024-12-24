@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+
     box-sizing: border-box;
     font-family: Maitree;
     text-align: center; 
@@ -12,7 +12,7 @@ body   {
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
-    padding: 0;
+    padding: 24px;
     background: radial-gradient(circle, #00E56B 0%, #009445 100%);
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ body   {
     min-height: 90%;
     min-width: 90%;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -48,6 +48,18 @@ h2 {
     font-weight: 700;
     color: #ffffff;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .container {
+        justify-content: space-evenly;
+    }
 }
 
 .hands{
@@ -75,7 +87,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center; 
-    
     width: 100%; 
     height: 96px;
 }
