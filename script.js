@@ -14,8 +14,10 @@ function renderGame() {
         message.textContent = "Do you want to draw a new card?";
     } else if (totalSum === 21) {
         message.textContent = "You've got Blackjack!";
+        alert("You've got Blackjack!🙀🎉");
     } else {
         message.textContent = "You're out of the game!";
+        alert("You're out of the game!😭");
     }
 }
 
