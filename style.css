@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Maitree;
+}
+
+body   {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #00E56B 0%, #009445 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 46px 64px 46px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5% 7.5% 5% 7.5%;
+    display: flex;
+    min-height: 90vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 96px;
+    font-weight: 900;
+    color:#FFD951;
+    text-align: center;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+#message {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    width: 100%; 
+    height: 96px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.second-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+#new {
+    background-color: #FFD951;
+    color: #009445;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#new:hover {
+    background-color: hsl(47, 100%, 50%);
+    color: #009445;
+}
+#new:active {
+    transform: scale(0.95);
+}
+
+#Start {
+    background-color: #009445;
+    color:  #FFD951;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#Start:hover {
+    background-color:  hsl(148, 100%, 10%);
+    color: #FFD951;
+}
+#Start:active {
+    transform: scale(0.95);
+}
+
+#newCard {
+    background-color: #3C2FF8;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#newCard:hover {
+    background-color: hsl(244, 87%, 65%);
+    color: #e8e7e7;
+}
+#newCard:active {
+    transform: scale(0.95);
+}
+
